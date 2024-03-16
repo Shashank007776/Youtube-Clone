@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube.com Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/video.css" />
+    <link rel="stylesheet" href="styles/sidebar.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img class="menu" src="icons/icon1.svg" />
+        <img class="youtube-logo" src="icons/icon2.svg" />
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search" />
+        <button class="search-button">
+          <img class="search-icon" src="icons/icon3.svg" />
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons\voice-search-icon.svg" />
+          <div class="tooltip">Search with your Voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/icon4.svg" />
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="youtubeapp-icon-container">
+          <img class="youtubeapp-icon" src="icons/icon5.svg" />
+          <div class="tooltip">Youtube Apps</div>
+        </div>
+
+        <div class="notification-container">
+          <img class="notification-icon" src="icons/icon6.svg" />
+          <div class="tooltip">Notification</div>
+          <div class="notification-count">7</div>
+        </div>
+        <img class="mychannel" src="profile/myprofile.jpg" />
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="sidebar-icons/home.svg" />
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="sidebar-icons/explore.svg" />
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="sidebar-icons/subscriptions.svg" />
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="sidebar-icons/originals.svg" />
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="sidebar-icons/youtube-music.svg" />
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="sidebar-icons/library.svg" />
+        <div>Library</div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="video-grid">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails\thumbnail1.webp" />
+            <div class="video-time">9:26</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="profile">
+              <img class="profile-picture" src="profile/profile1.jpg" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Sam Sulek's Muscle Building Breakfast | HOSSTILE
+              </p>
+              <p class="video-author">HOSSTILE</p>
+              <p class="video-stats">2.4M views &#183; 6 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails\thumbnali-2.webp" />
+            <div class="video-time">19:20</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="profile">
+              <img class="profile-picture" src="profile/profile2.jpg" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">MIAMI</p>
+              <p class="video-author">David Laid</p>
+              <p class="video-stats">271K views &#183; 1 day ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail3.webp" />
+            <div class="video-time">12:50</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="profile">
+              <img class="profile-picture" src="profile/profile3.jpg" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">HIKING VLOG waterfall edition</p>
+              <p class="video-author">Keiani</p>
+              <p class="video-stats">222K views &#183; 2 days ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail4.webp" />
+            <div class="video-time">2:38</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="profile">
+              <img class="profile-picture" src="profile/profile4.jpg" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Boruto vs Naruto | Baruto: Naruto Next Generation
+              </p>
+              <p class="video-author">Crunchyroll</p>
+              <p class="video-stats">18M views &#183; 3 year ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail5.webp" />
+            <div class="video-time">2:17</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="profile">
+              <img class="profile-picture" src="profile/profile5.jpg" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                KGF Chapter2 TEASER|Yash|Sanjay Dutt|Raveena Tandon|Prashanth
+                Neel
+              </p>
+              <p class="video-author">Hombale Films</p>
+              <p class="video-stats">274M views &#183; 3 year ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail6.webp" />
+            <div class="video-time">3:15</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="profile">
+              <img class="profile-picture" src="profile/profile6.jpg" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Where is Pushpa? | Pushpa 2 - The Rule 🔥 | Hindi | Allu Arjun |
+                Sukumar
+              </p>
+              <p class="video-author">T-Series</p>
+              <p class="video-stats">86M views &#183; 11 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail7.webp" />
+            <div class="video-time">14:21</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="profile">
+              <img class="profile-picture" src="profile/profile7.jpg" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">being a menace at gameday barbell</p>
+              <p class="video-author">Keiani</p>
+              <p class="video-stats">128KM views &#183; 1 day ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail8.webp" />
+            <div class="video-time">3:15</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="profile">
+              <img class="profile-picture" src="profile/profile8.jpg" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                TREINEI COM CBUM, URS E VISSERS-RAMON DINO
+              </p>
+              <p class="video-author">Ramon Dino Pro</p>
+              <p class="video-stats">819K views &#183; 9 days ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail9.webp" />
+            <div class="video-time">21:23</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="profile">
+              <img class="profile-picture" src="profile/profile9.jpg" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                "Gaint Wilds " Photo Manipulation | Photoshop Tutorial
+              </p>
+              <p class="video-author">Learning Screen</p>
+              <p class="video-stats">17K views &#183; 4 days ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail10.webp" />
+            <div class="video-time">1:31</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="profile">
+              <img class="profile-picture" src="profile/profile10.jpg" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Ijazat | Cover | Nehaal Naseem | Falak Shabir |
+              </p>
+              <p class="video-author">NEHAAL NASEEM</p>
+              <p class="video-stats">29M views &#183; 1 year ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails\thumbnail11webp.webp" />
+            <div class="video-time">3:15</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="profile">
+              <img class="profile-picture" src="profile/profile11.jpg" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Demon Slayer: Kimetsu no Yaiba Hashira Training Arc | OFFICIAL
+                TRAILER
+              </p>
+              <p class="video-author">Aniplex USA</p>
+              <p class="video-stats">3.4M views &#183; 6 days ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail12.webp" />
+            <div class="video-time">5:19</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="profile">
+              <img class="profile-picture" src="profile/profile12.jpg" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Stay Focused !! 🔥🔥 | ezSnippet | Neeraj Walia by Neeraj Walia
+                112,755 views 1 month ago 5 minutes, 19 seconds
+              </p>
+              <p class="video-author">Neeraj Walia</p>
+              <p class="video-stats">112K views &#183; 1 month ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail13.webp" />
+            <div class="video-time">11:14</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="profile">
+              <img class="profile-picture" src="profile/profile13.jpg" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Virat Kohli 72* (38) vs Australia 2nd T20I 2019 Bangalore (Ball
+                By Ball)
+              </p>
+              <p class="video-author">Virat Kholi Tv</p>
+              <p class="video-stats">2.1M views &#183; 2 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail14.webp" />
+            <div class="video-time">2:58</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="profile">
+              <img class="profile-picture" src="profile/profile14.jpg" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                John Cena (Sort Of) Streaks at the Oscars
+              </p>
+              <p class="video-author">Jimmy Kimmel Live</p>
+              <p class="video-stats">4.5M views &#183; 5 days ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail15.webp" />
+            <div class="video-time">5:30</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="profile">
+              <img class="profile-picture" src="profile/profile15.jpg" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Toofaani Transformation Of Farhan Akhtar | Amazon Prime Video
+              </p>
+              <p class="video-author">Prime Video India</p>
+              <p class="video-stats">7.7M views &#183; 2 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail16.webp" />
+            <div class="video-time">3:15</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="profile">
+              <img class="profile-picture" src="profile/profile16.jpg" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                DAVID LAID - Heartbreak | GYM MOTIVATION
+              </p>
+              <p class="video-author">Aesthetics Power</p>
+              <p class="video-stats">1.3M views &#183; 2 years ago</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+/* Footer styles */
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    z-index: 300;
+}
+
+/* Optional styles to enhance appearance */
+.footer p {
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container p {
+    font-size: 14px;
+}
